@@ -1,8 +1,7 @@
 import './App.css';
 import {
   BrowserRouter as Router,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import Navegacion from './components/Navegacion';
 import Cascada from './components/Cascada';
@@ -15,6 +14,9 @@ import Playa from './components/Playa';
 function App() {
   return (
    <Router>
+     <div className="container">
+       <h1 className="text-center mt-3 mb-3">Galeria</h1>
+     </div>
       <Route path="/Cascada" component={Cascada}/>
       <Route path="/Lago" component={Lago}/>
       <Route path="/Luna" component={Luna}/>

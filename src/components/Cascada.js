@@ -3,8 +3,8 @@ import CascadaImg from '../images/cascada.jpg'
 
 const Cascada = () => {
     return (
-        <div>
-            <img src={CascadaImg} alt="Imagen cascada"/>
+        <div className="container">
+            <img src={CascadaImg} alt="Imagen cascada" className="imagenes" />
         </div>
     )
 }

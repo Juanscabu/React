@@ -8,35 +8,35 @@ import PlayaImagen from '../images/playa.jpg'
 
 const Navegacion = () => {
     return (
-        <div>
-            <Link to="/Cascada">
+        <div className="container mt-3 container-padre">
+            <Link className="links-imgs" to="/Cascada">
                 <figure>
-                    <img src={CascadaImagen} alt=""></img>
+                    <img src={CascadaImagen} alt="" className="miniatura"></img>
                     <figcaption>Cascada</figcaption>
                 </figure>
             </Link>
-            <Link to="/Lago">
+            <Link className="links-imgs" to="/Lago">
                 <figure>
-                    <img src={LagoImagen} alt=""></img>
-                    <figcaption>Cascada</figcaption>
+                    <img src={LagoImagen} alt="" className="miniatura"></img>
+                    <figcaption>Lago</figcaption>
                 </figure>
             </Link>
-            <Link to="/Luna">
+            <Link className="links-imgs"  to="/Luna">
                 <figure>
-                    <img src={LunaImagen} alt=""></img>
-                    <figcaption>Cascada</figcaption>
+                    <img src={LunaImagen} alt="" className="miniatura"></img>
+                    <figcaption>Luna</figcaption>
                 </figure>
             </Link>
-            <Link to="/Otoño">
+            <Link className="links-imgs" to="/Otoño">
                 <figure>
-                    <img src={OtoñoImagen} alt=""></img>
-                    <figcaption>Cascada</figcaption>
+                    <img src={OtoñoImagen} alt="" className="miniatura"></img>
+                    <figcaption>Otoño</figcaption>
                 </figure>
             </Link>
-            <Link to="/Playa">
+            <Link className="links-imgs"  to="/Playa">
                 <figure>
-                    <img src={PlayaImagen} alt=""></img>
-                    <figcaption>Cascada</figcaption>
+                    <img src={PlayaImagen} alt="" className="miniatura"></img>
+                    <figcaption>Playa</figcaption>
                 </figure>
             </Link>
         </div>
